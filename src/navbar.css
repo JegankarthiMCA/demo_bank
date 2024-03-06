@@ -1,0 +1,63 @@
+.custom-navbar {
+  background-image: url("nav.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+.logo {
+  display: inline-block;
+  margin-right: 10px;
+  width: 30px;
+  color: white;
+  /* mix-blend-mode: multiply;  */
+}
+.customHover:hover::after {
+  content: "Create Account";
+  position: absolute;
+  background-color: rgb(14, 102, 174);
+  padding: 5px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.customHover4:hover::after {
+  content: "Home Page";
+  position: absolute;
+  background-color: rgb(14, 102, 174);
+  padding: 5px;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.customHover1:hover::after {
+  content: "Deposit Amount";
+  position: absolute;
+  color: white;
+  background-color: rgb(14, 102, 174);
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.customHover2:hover::after {
+  color: white;
+  content: "Withdraw Amount";
+  position: absolute;
+  background-color: rgb(14, 102, 174);
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.customHover3:hover::after {
+  color: white;
+  content: "All data details";
+  position: absolute;
+  background-color: rgb(14, 102, 174);
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

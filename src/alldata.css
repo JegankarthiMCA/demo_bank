@@ -1,0 +1,48 @@
+body {
+  background-image: url("background1.jpeg");
+}
+
+.alldata-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: #87CEEB;  */
+}
+
+.alldata-card {
+  width: 70%;
+  background-color: #87ceeb;
+  color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.alldata-card h1 {
+  color: #ffffff;
+}
+.alldata-card table {
+  background-color: #ffffff;
+  color: #171616;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.alldata-card th,
+.alldata-card td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+}
+
+.alldata-card th {
+  background-color: #2980b9;
+  color: #ffffff;
+}
+
+.alldata-card th:hover {
+  background-color: #1a5276;
+}
+
+.alldata-card tr:hover {
+  background-color: #e0f7fa;
+}
